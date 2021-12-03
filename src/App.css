@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+.App {
+  background-color: turquoise;
+  text-align: center;
+  height: 55vw;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header,
+footer{
+    /* border: 2px solid cyan; */
+    height: 10%;
+}
+
+main,
+aside{
+    position: relative;
+    border-radius: 3%;
+    /* border: 1px solid teal; */
+    height: 80%;
+}
+
+main{
+  background-color: #33ffff;
+  float: right;
+  position: relative;
+  right: 45px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside{
+  background-color: darkturquoise;
+  float: left;
+  position: relative;
+  left: 45px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Info{
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#photo,
+#Contacts{
+  border-radius: 10%;
+}
+
+#Contacts{
+  margin-top: 15px;
+  border: none;
+}
+
+#photo{
+  background: url('./components/photo/IMG_5550.jpg');
+  background-size: 100%;
+  background-position: center;
+  height: 60%;
+  width: 75%;
+}
+
+#Contacts{
+    height: 60%;
+    width: 85%;
+}
+
+.info{
+  border: none;
+  border-radius: 2%;
+  height: 90%;
+  width: 70%;
+  overflow: scroll;
+}
+
+footer{
+    clear: both;
+}
